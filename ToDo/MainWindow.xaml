@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        MinHeight="700"
+        MinWidth="400"
+        MaxHeight="700"
+        MaxWidth="400"
+        Title="ToDo">
 
-    </Grid>
+    <local:WorkTasksPage />
 </Window>
